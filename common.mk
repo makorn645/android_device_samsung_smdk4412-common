@@ -180,7 +180,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 
-$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Include exynos4 platform specific parts
 TARGET_HAL_PATH := hardware/samsung/exynos4/hal
