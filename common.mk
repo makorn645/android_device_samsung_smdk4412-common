@@ -47,10 +47,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=15
 
-# Gps
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/gps.conf:system/etc/gps.conf
-
 # Packages
 PRODUCT_PACKAGES := \
     AdvancedDisplay \
@@ -151,10 +147,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/android.software.sip.xml:system/etc/permissions/android.software.sip.xml
-
-# Feature live wallpaper
-PRODUCT_COPY_FILES += \
-    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
