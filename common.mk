@@ -129,7 +129,6 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     librs_jni
 
-
 # Wifi
 PRODUCT_PACKAGES += \
     libwpa_client \
