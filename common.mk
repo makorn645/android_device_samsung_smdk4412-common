@@ -38,6 +38,25 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/80cfw:system/etc/init.d/80cfw
 
+# HAL
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-impl \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.light@2.0-impl \
+    android.hardware.usb@1.0-service \
+    android.hardware.gnss@1.0-impl \
+    android.hardware.wifi@1.0-service \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.drm@1.0-impl \
+    wificond \
+    libbt-vendor
+PRODUCT_COPY_FILES += \
+    device/samsung/smdk4412-common/manifest.xml:system/vendor/manifest.xml
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
