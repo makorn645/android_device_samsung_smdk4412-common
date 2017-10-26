@@ -28,6 +28,7 @@ lib/libMcClient.so
 lib/libMcRegistry.so
 lib/libMcVersion.so
 lib/libsecnativefeature.so
+lib/hw/hwcomposer.vendor.exynos4.so
 usr/idc/melfas_ts.idc
 usr/idc/sec_touchscreen.idc
 usr/keylayout/gpio-keys.kl
